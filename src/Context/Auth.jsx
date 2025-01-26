@@ -4,7 +4,7 @@ import axios from 'axios';
 import apis from '../Config/Apis';
 
 const Authprovider =({children})=>{
-    const [auth, setauth] = useState({
+     const [auth, setauth] = useState({
       user: null,
       token:'',
       refreshtoken:'',
@@ -30,7 +30,7 @@ const Authprovider =({children})=>{
    
 }
 
- const useAuth = () => useContext(AuthContext)
+const useAuth = () => useContext(AuthContext)
 
 export {
     Authprovider,

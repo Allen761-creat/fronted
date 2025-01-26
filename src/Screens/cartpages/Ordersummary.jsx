@@ -70,7 +70,7 @@ const Ordersummary = ({ subtotal }) => {
 
       {/* Proceed to Checkout Button */}
       <button
-      onClick={paymentmethod}
+      
       className='w-full mt-6 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300'>
         Proceed to Checkout
       </button>
