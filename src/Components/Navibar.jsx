@@ -83,7 +83,7 @@ navigate("/login")
       <div className=" object-center object-cover   overflow-hidden rounded-full w-[35px] border border-black h-[35px]" >
          
          <img 
-  src={auth.user && auth.user.profilepic ? `http://localhost:8080${auth.user.profilepic}` :"http://localhost:8080/uploads/3afe18deea4097c7ba9b640c.png" } 
+  src={auth.user && auth.user.profilepic ? `https://backend-five-nu-17.vercel.app/${auth.user.profilepic}` :"https://backend-five-nu-17.vercel.app/uploads/3afe18deea4097c7ba9b640c.png" } 
   alt="" 
 />
       </div>
