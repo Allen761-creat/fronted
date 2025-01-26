@@ -1,6 +1,6 @@
  const apis=[
     "http://localhost:8080/api/v1/users",
-    "http://localhost:8080/api/v1/products",
+    "https://backend-five-nu-17.vercel.app/api/v1/products",
     "http://localhost:8080/api/v1/admin",
    "http://localhost:8080/api/v1/orders",
 
